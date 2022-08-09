@@ -37,5 +37,5 @@ window.show()
 #base.show()
 app.exec()
 
-##ctrl C + ctrl K comenta
-##ctrl C + ctrl U descomenta
+##ctrl K + ctrl C comenta
+##ctrl K + ctrl U descomenta

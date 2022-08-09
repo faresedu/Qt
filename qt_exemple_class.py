@@ -36,7 +36,7 @@ class Window(QMainWindow):
 
         menu = self.menuBar()
         file_menu = menu.addMenu('File') #create a menu
-        action = QAction('Test_Action')  #create a action for menu
+        action = QAction('Test_Action', self)  #create a action for menu
         #action.triggered.connect(callback2) 
         file_menu.addAction(action)
 
